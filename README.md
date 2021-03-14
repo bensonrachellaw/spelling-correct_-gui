@@ -6,8 +6,18 @@
 IDE：pycharm；python3.5；PYQT做界面；
 数据：
 使用big.txt作为语料库。
+
+
+
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0314/213725_c4efe2d4_8773742.png "屏幕截图.png")
+
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0314/213743_5341f85a_8773742.png "屏幕截图.png")
+
+
+
+
 #### 软件架构
 软件架构说明
 

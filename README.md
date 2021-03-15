@@ -21,26 +21,18 @@ IDE：pycharm；python3.5；PYQT做界面；
 ![avatar](https://img-blog.csdnimg.cn/201812201729553.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlbnNvbnJhY2hlbA==,size_16,color_FFFFFF,t_70)
 
 
-
 #### 软件架构
 软件架构说明
 
-
 主要算法原理：
-
- 
 
 编辑距离（这里使用的是替换操作算一次开销的版本，跟插入和删除等价）：
 
 这里的东西请看我的博客算法里的编辑距离问题，这里不在详细说明。
 
-编辑距离
-
 具体处理方法：
 
 把big.txt的全部单词变成小写，并且计算他们出现的次数，再除以单词总数（字典长度）作为该词的频率，对输入的单词在词典里进行匹配，至少0次编辑，最多2次编辑。找出编辑距离最小的，当编辑距离为最小的不只一个时，找出所有单词里的概率最大的作为输出。
-
-
 
 #### 总结：
 
